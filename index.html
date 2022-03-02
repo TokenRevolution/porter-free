@@ -208,7 +208,9 @@
           <!-- Display the countdown timer in an element -->
 <p id="demo"></p>
           <br>
-<p id="demo1"></p>
+<p id="demoh"></p>
+<p id="demom"></p>
+<p id="demos"></p>
 
 <script>
 // Set the date we're counting down to
@@ -231,8 +233,9 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days;
-  document.getElementById("demo1").innerHTML = hours + "hours"
-  + minutes + "minutes " + seconds + "seconds";
+  document.getElementById("demoh").innerHTML = hours;
+  document.getElementById("demom").innerHTML = minutes;
+  document.getElementById("demos").innerHTML = seconds;
 
   // If the count down is finished, write some text
   if (distance < 0) {
